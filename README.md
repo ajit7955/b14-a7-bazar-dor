@@ -1,4 +1,4 @@
-# 🛒 Bazar Dor — বাজার দর
+# ðŸ›’ Bazar Dor â€” à¦¬à¦¾à¦œà¦¾à¦° à¦¦à¦°
 
 Bazar Dor is a responsive Bengali market-price website that helps users explore product prices and market information in Bangladesh.
 
@@ -79,10 +79,10 @@ The application uses these endpoints to retrieve market-price data.
 
 ## Project Structure
 
-- `app/` — pages, layouts, and API routes
-- `components/` — reusable UI components
-- `lib/` — API and authentication utilities
-- `public/` — static assets
+- `app/` â€” pages, layouts, and API routes
+- `components/` â€” reusable UI components
+- `lib/` â€” API and authentication utilities
+- `public/` â€” static assets
 
 ## Authentication
 
