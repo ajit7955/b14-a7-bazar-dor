@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Bazar Dor — বাজার দর
 
-## Getting Started
+Bazar Dor is a responsive Bengali market-price website for exploring product prices and market information in Bangladesh.
 
-First, run the development server:
+## Features
+
+1. Browse products with Bengali names, images, categories, and prices.
+2. View products with rising and falling prices.
+3. Filter products by category.
+4. View individual product details.
+5. Sort products by price.
+6. Sign up, sign in, and sign out using Better Auth.
+7. View and update profile information.
+8. Use the website on mobile, tablet, and desktop.
+9. Display loading and empty states.
+10. Show toast notifications for supported actions.
+
+## Technologies Used
+
+- Next.js 14
+- React
+- JavaScript
+- Tailwind CSS
+- Better Auth
+- SQLite and better-sqlite3
+- Lucide React
+- React Hot Toast
+- REST API
+
+## Installation
+
+Requirements: Node.js, npm, and Git.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Configure the required authentication environment variables in `.env.local` before using authentication in a fresh installation. Never publish real secrets.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## API
 
-## Learn More
+Primary API: https://api.api-store.workers.dev/api/bazardor
 
-To learn more about Next.js, take a look at the following resources:
+Fallback API: https://api.abcz.workers.dev/api/bazardor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Main Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `app/` — application pages and routes
+- `components/` — reusable UI components
+- `lib/` — API and authentication utilities
 
-## Deploy on Vercel
+## Authentication
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Better Auth handles email-and-password authentication. Google and GitHub sign-in require OAuth credentials.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Project
+
+Created as part of the Programming Hero B14-A7 Bazar Dor assignment.
