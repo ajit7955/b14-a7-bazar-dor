@@ -50,3 +50,4 @@ fix-vercel.js
 lib/*.backup
 lib/*.bak
 
+lib/*.postgres-backup
