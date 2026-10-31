@@ -39,3 +39,14 @@ next-env.d.ts
 # Local SQLite database
 /sqlite.db
 *.db-journal
+
+# Diagnostic and backup files
+auth-diagnostic.cjs
+check-db-connection.cjs
+check-db-network.cjs
+check-db-tables.cjs
+check-vercel.js
+fix-vercel.js
+lib/*.backup
+lib/*.bak
+
